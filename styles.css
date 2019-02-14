@@ -6,6 +6,11 @@ html {
 }
 
 body {
+  text-align: center;
+}
+
+video {
+  width: 100%;
 }
 
 a {
@@ -25,12 +30,15 @@ a {
 .nav-bar {
   color: aliceblue;
   display: flex;
+  margin: auto 0;
   justify-content: space-around;
 }
 
 .parallax-strip {
   background-color: black;
   color: whitesmoke;
+  text-align: center;
+  padding: 2em;
 }
 
 .products-container {
@@ -38,12 +46,41 @@ a {
   grid-template-columns: 1fr 1fr 1fr;
 }
 
+.subscribe-container {
+  text-align: center;
+}
+
 .footer {
   background-color: black;
   color: whitesmoke;
   text-align: center;
+  padding: 1em;
+}
+
+/* more specific containers styling */
+
+.header-logo {
+  padding: 1em;
+  margin: 0 auto;
+}
+
+.product {
+  margin: 0 auto;
+}
+
+#product-image {
+  max-width: 250px;
 }
 
 #monster-logo {
   max-width: 250px;
+}
+
+/* buttons styling */
+
+#button-1 {
+  background-color: #2969b0;
+  border-color: #2969b0;
+  color: #ffffff;
+  border-radius: 1.6em;
 }

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="styles.css" />
-    <title>Monsteraudio</title>
+    <title>Monster audio</title>
   </head>
   <body>
     <div class="header">
@@ -21,7 +21,7 @@
           </a>
         </div>
         <div class="products">
-          <a href="#">
+          <a href="pages/products.html">
             Products
           </a>
         </div>
@@ -34,7 +34,9 @@
     </div>
 
     <div class="video-slider">
-      <img src="#" />
+      <video autoplay muted loop id="myVideo">
+        <source src="assets/videos/Nightclub_Smoke_machine_and_Dance.mov" type="video/mp4">
+      </video>
     </div>
 
     <div class="parallax-strip">
@@ -44,31 +46,31 @@
     </div>
 
     <div class="products-container">
-      <div class="Rockin-Roller-4">
-        <img src="#" alt="rocking-roller-4" />
+      <div class="product Rockin-Roller-4">
+        <img src="assets/images/rockin-roller-4.jpg" alt="rocking-roller-4" id="product-image"/>
         <h3>Rockin'Roller 4</h3>
         <p>Lorem ipsum dolor sit amet.</p>
         <div class="product-button-container">
-          <button>Buy Now</button>
-          <button>Learn More</button>
+          <button id="button-1">Buy Now</button>
+          <button id="button-1">Learn More</button>
         </div>
       </div>
-      <div class="Roam">
-        <img src="#" alt="roam" />
+      <div class="product Roam">
+        <img src="assets/images/roam.jpg" alt="roam" id="product-image"/>
         <h3>ROAM</h3>
         <p>Lorem ipsum dolor sit amet.</p>
         <div class="product-button-container">
-          <button>Buy Now</button>
-          <button>Learn More</button>
+          <button id="button-1">Buy Now</button>
+          <button id="button-1">Learn More</button>
         </div>
       </div>
-      <div class="glo-2">
-        <img src="#" alt="glo-2" />
+      <div class="product glo-2">
+        <img src="assets/images/glo-2.jpg" alt="glo-2" id="product-image"/>
         <h3>GLO 2</h3>
         <p>Lorem ipsum dolor sit amet.</p>
         <div class="product-button-container">
-          <button>Buy Now</button>
-          <button>Learn More</button>
+          <button id="button-1">Buy Now</button>
+          <button id="button-1">Learn More</button>
         </div>
       </div>
     </div>
@@ -80,6 +82,7 @@
     <div class="subscribe-container">
       <div class="subscribe-paragraph">
         <h2>Hear it First</h2>
+        <p>Stay up to date with the latest firmware updates and product releases</p>
       </div>
       <div class="subscribe-area">
         <div class="subscribe-input">
@@ -92,13 +95,9 @@
             placeholder="Your email"
           />
 
-          <input
-            type="submit"
-            value="Subscribe"
-            name="subscribe"
-            id="subscribe-button"
-            class=""
-          />
+          <button id="button-1">
+            Subscribe
+          </button>
         </div>
       </div>
     </div>
