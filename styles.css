@@ -8,7 +8,42 @@ html {
 body {
 }
 
+a {
+  text-decoration: none !important;
+  color: #eeeae1;
+}
+
 .header {
   background-color: black;
   max-height: 10vh;
+  color: aliceblue;
+  text-decoration-color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.nav-bar {
+  color: aliceblue;
+  display: flex;
+  justify-content: space-around;
+}
+
+.parallax-strip {
+  background-color: black;
+  color: whitesmoke;
+}
+
+.products-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.footer {
+  background-color: black;
+  color: whitesmoke;
+  text-align: center;
+}
+
+#monster-logo {
+  max-width: 250px;
 }
