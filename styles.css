@@ -1,0 +1,14 @@
+*,
+html {
+  margin: 0;
+  left: 0;
+  top: 0;
+}
+
+body {
+}
+
+.header {
+  background-color: black;
+  max-height: 10vh;
+}
