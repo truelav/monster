@@ -1,0 +1,143 @@
+{
+  "EZ-play": {
+    "GLO-2": {
+      "name": "solara",
+      "pictures-1-links": ["link1", "link2"],
+      "description": [
+        "connects 8 speakers",
+        "solar panel channel",
+        "Build-in Mood light"
+      ],
+      "amazon-link": "https//:amazon.com",
+      "download-user-link": "link.com",
+      "download-quick-start-link": "link.com",
+      "video-writting": "Solar-powered, wireless Bluetooth speaker for indoors and outdoors. 360-degree LED light, 360-degree sound, solar-charging panel, and EZ-Play technology.",
+      "features": [
+        {
+          "solar-panel": "The Solara’s built-in solar panel charges the speaker’s battery, boosting battery life and audio performance outdoors. More time in the sun means less time plugged into a socket.",
+          "short": "Solar Charging",
+          "icon-link": "https://icon.com"
+        }
+      ],
+      "pictures-2-links": ["link1", "link2"],
+      "video-2-link": "link2.com",
+      "monster-zone-p": "Monster Zone Controller",
+      "monster-zone-description-1": "The Monster Zone app puts full command of our Monster EZ-Play speakers in the palm of your hand. The Monster EZ-Play wireless bluetooth speakers are loaded with several features that make them great for indoors and outdoors.",
+      "monster-zone-description-2": "The Monster Zone app is strictly compatible with the Monster GLO and Monster Solara.",
+      "app-store-link": "link.com",
+      "google-play-link": "link.com"
+    },
+
+    "GLO": {
+      "name": "solara",
+      "pictures-1-links": ["link1", "link2"],
+      "description": [
+        "connects 8 speakers",
+        "solar panel channel",
+        "Build-in Mood light"
+      ],
+      "amazon-link": "https//:amazon.com",
+      "download-user-link": "link.com",
+      "download-quick-start-link": "link.com",
+      "video-writting": "Solar-powered, wireless Bluetooth speaker for indoors and outdoors. 360-degree LED light, 360-degree sound, solar-charging panel, and EZ-Play technology.",
+      "features": [
+        {
+          "solar-panel": "The Solara’s built-in solar panel charges the speaker’s battery, boosting battery life and audio performance outdoors. More time in the sun means less time plugged into a socket.",
+          "short": "Solar Charging",
+          "icon-link": "https://icon.com"
+        }
+      ],
+      "pictures-2-links": ["link1", "link2"],
+      "video-2-link": "link2.com",
+      "monster-zone-p": "Monster Zone Controller",
+      "monster-zone-description-1": "The Monster Zone app puts full command of our Monster EZ-Play speakers in the palm of your hand. The Monster EZ-Play wireless bluetooth speakers are loaded with several features that make them great for indoors and outdoors.",
+      "monster-zone-description-2": "The Monster Zone app is strictly compatible with the Monster GLO and Monster Solara.",
+      "app-store-link": "link.com",
+      "google-play-link": "link.com"
+    },
+
+    "Solara": {
+      "name": "solara",
+      "pictures-1-links": ["link1", "link2"],
+      "description": [
+        "connects 8 speakers",
+        "solar panel channel",
+        "Build-in Mood light"
+      ],
+      "amazon-link": "https//:amazon.com",
+      "download-user-link": "link.com",
+      "download-quick-start-link": "link.com",
+      "video-writting": "Solar-powered, wireless Bluetooth speaker for indoors and outdoors. 360-degree LED light, 360-degree sound, solar-charging panel, and EZ-Play technology.",
+      "features": [
+        {
+          "solar-panel": "The Solara’s built-in solar panel charges the speaker’s battery, boosting battery life and audio performance outdoors. More time in the sun means less time plugged into a socket.",
+          "short": "Solar Charging",
+          "icon-link": "https://icon.com"
+        }
+      ],
+      "pictures-2-links": ["link1", "link2"],
+      "video-2-link": "link2.com",
+      "monster-zone-p": "Monster Zone Controller",
+      "monster-zone-description-1": "The Monster Zone app puts full command of our Monster EZ-Play speakers in the palm of your hand. The Monster EZ-Play wireless bluetooth speakers are loaded with several features that make them great for indoors and outdoors.",
+      "monster-zone-description-2": "The Monster Zone app is strictly compatible with the Monster GLO and Monster Solara.",
+      "app-store-link": "link.com",
+      "google-play-link": "link.com"
+    },
+
+    "TowerOfMusic": {
+      "name": "solara",
+      "pictures-1-links": ["link1", "link2"],
+      "description": [
+        "connects 8 speakers",
+        "solar panel channel",
+        "Build-in Mood light"
+      ],
+      "amazon-link": "https//:amazon.com",
+      "download-user-link": "link.com",
+      "download-quick-start-link": "link.com",
+      "video-writting": "Solar-powered, wireless Bluetooth speaker for indoors and outdoors. 360-degree LED light, 360-degree sound, solar-charging panel, and EZ-Play technology.",
+      "features": [
+        {
+          "solar-panel": "The Solara’s built-in solar panel charges the speaker’s battery, boosting battery life and audio performance outdoors. More time in the sun means less time plugged into a socket.",
+          "short": "Solar Charging",
+          "icon-link": "https://icon.com"
+        }
+      ],
+      "pictures-2-links": ["link1", "link2"],
+      "video-2-link": "link2.com",
+      "monster-zone-p": "Monster Zone Controller",
+      "monster-zone-description-1": "The Monster Zone app puts full command of our Monster EZ-Play speakers in the palm of your hand. The Monster EZ-Play wireless bluetooth speakers are loaded with several features that make them great for indoors and outdoors.",
+      "monster-zone-description-2": "The Monster Zone app is strictly compatible with the Monster GLO and Monster Solara.",
+      "app-store-link": "link.com",
+      "google-play-link": "link.com"
+    },
+
+    "BTW249": {
+      "name": "solara",
+      "pictures-1-links": ["link1", "link2"],
+      "description": [
+        "connects 8 speakers",
+        "solar panel channel",
+        "Build-in Mood light"
+      ],
+      "amazon-link": "https//:amazon.com",
+      "download-user-link": "link.com",
+      "download-quick-start-link": "link.com",
+      "video-writting": "Solar-powered, wireless Bluetooth speaker for indoors and outdoors. 360-degree LED light, 360-degree sound, solar-charging panel, and EZ-Play technology.",
+      "features": [
+        {
+          "solar-panel": "The Solara’s built-in solar panel charges the speaker’s battery, boosting battery life and audio performance outdoors. More time in the sun means less time plugged into a socket.",
+          "short": "Solar Charging",
+          "icon-link": "https://icon.com"
+        }
+      ],
+      "pictures-2-links": ["link1", "link2"],
+      "video-2-link": "link2.com",
+      "monster-zone-p": "Monster Zone Controller",
+      "monster-zone-description-1": "The Monster Zone app puts full command of our Monster EZ-Play speakers in the palm of your hand. The Monster EZ-Play wireless bluetooth speakers are loaded with several features that make them great for indoors and outdoors.",
+      "monster-zone-description-2": "The Monster Zone app is strictly compatible with the Monster GLO and Monster Solara.",
+      "app-store-link": "link.com",
+      "google-play-link": "link.com"
+    }
+  }
+}
