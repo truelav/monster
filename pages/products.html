@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="stylesheet" href="../styles.css" />
     <title>Monster Audio</title>
   </head>
@@ -34,12 +35,12 @@
     </div>
 
     <div class="filter-container">
-      <select>
+      <select id="filter-products">
         <option value="ez-play">Ez-Play</option>
         <option value="rockin">Rockin'</option>
         <option value="companion">Companion</option>
-        <option value="pros">Pro</option>
-        <option value="all">All</option>
+        <option value="pro">Pro</option>
+        <option value="all" selected="selected">All</option>
       </select>
     </div>
 
@@ -61,58 +62,136 @@
     <div class="products-items-container"></div>
 
     <div class="main-product-container">
-      <div class="column-1">
-        <div class="product-item-small">
-          <div class="product-image-container-small">
-            <img src="#">
-          </div>
-          <div class="product-description-container">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. </br> Est quia cumque perferendis officia, quam delectus.
-          </div>
-        </div>
-        <div class="product-item-small">
-          <div class="product-image-container-small">
-            <img src="#">
-          </div>
-          <div class="product-description-container">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. </br> Est quia cumque perferendis officia, quam delectus.
+        <div class="product glo ez-play">
+          <img src="img/glo.png" alt="glo" id="product-image"/>
+          <h3 class="product-display-name">GLO</h3>
+          <p class="product-display-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat repudiandae asperiores nam. Id neque, accusantium numquam adipisci quibusdam cupiditate quaerat?</p>
+          <div class="product-button-container">
+            <button id="button-1">Buy Now</button>
+            <button id="button-1">Learn More</button>
           </div>
         </div>
-        <div class="product-item-small">
-          <div class="product-image-container-small">
-            <img src="#">
-          </div>
-          <div class="product-description-container">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. </br> Est quia cumque perferendis officia, quam delectus.
-          </div>
-        </div>
-      </div>
-      <div class="column-2">
-        <div class="product-item-small">
-          <div class="product-image-container-small">
-            <img src="#">
-          </div>
-          <div class="product-description-container">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. </br> Est quia cumque perferendis officia, quam delectus.
+        <div class="product glo-2 ez-play">
+          <img src="img/glo2.jpg" alt="glo-2" id="product-image"/>
+          <h3 class="product-display-name">GLO 2</h3>
+          <p class="product-display-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat repudiandae asperiores nam. Id neque, accusantium numquam adipisci quibusdam cupiditate quaerat?</p>
+          <div class="product-button-container">
+            <button id="button-1">Buy Now</button>
+            <button id="button-1">Learn More</button>
           </div>
         </div>
-        <div class="product-item-small">
-          <div class="product-image-container-small">
-            <img src="#">
-          </div>
-          <div class="product-description-container">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. </br> Est quia cumque perferendis officia, quam delectus.
-          </div>
-        </div>
-        <div class="product-item-small">
-          <div class="product-image-container-small">
-            <img src="#">
-          </div>
-          <div class="product-description-container">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. </br> Est quia cumque perferendis officia, quam delectus.
+        <div class="product solara ez-play">
+          <img src="img/solara.jpg" alt="solara" id="product-image"/>
+          <h3 class="product-display-name">Solara</h3>
+          <p class="product-display-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat repudiandae asperiores nam. Id neque, accusantium numquam adipisci quibusdam cupiditate quaerat?</p>
+          <div class="product-button-container">
+            <button id="button-1">Buy Now</button>
+            <button id="button-1">Learn More</button>
           </div>
         </div>
-      </div>
+        <div class="product tower-of-music-2 ez-play">
+          <img src="img/tower.png" alt="tower of music" id="product-image"/>
+          <h3 class="product-display-name">Tower of Music 2</h3>
+          <p class="product-display-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam deleniti numquam praesentium magnam exercitationem alias aperiam illum suscipit nobis excepturi.</p>
+          <div class="product-button-container">
+            <button id="button-1">Buy Now</button>
+            <button id="button-1">Learn More</button>
+          </div>
+        </div>
+        <div class="product btw249 ez-play">
+          <img src="img/btw249.png" alt="btw249" id="product-image"/>
+          <h3 class="product-display-name">BTW 249</h3>
+          <p class="product-display-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat repudiandae asperiores nam. Id neque, accusantium numquam adipisci quibusdam cupiditate quaerat?</p>
+          <div class="product-button-container">
+            <button id="button-1">Buy Now</button>
+            <button id="button-1">Learn More</button>
+          </div>
+        </div>
+        <div class="product rockin roller-2">
+          <img src="img/roller2.png" alt="glo-2" id="product-image"/>
+          <h3 class="product-display-name">Rockin Roller 2</h3>
+          <p class="product-display-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat repudiandae asperiores nam. Id neque, accusantium numquam adipisci quibusdam cupiditate quaerat?</p>
+          <div class="product-button-container">
+            <button id="button-1">Buy Now</button>
+            <button id="button-1">Learn More</button>
+          </div>
+        </div>
+        <div class="product companion nomad">
+          <img src="img/nomad.png" alt="glo" id="product-image"/>
+          <h3 class="product-display-name">Nomad</h3>
+          <p class="product-display-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat repudiandae asperiores nam. Id neque, accusantium numquam adipisci quibusdam cupiditate quaerat?</p>
+          <div class="product-button-container">
+            <button id="button-1">Buy Now</button>
+            <button id="button-1">Learn More</button>
+          </div>
+        </div>
+        <div class="product rockin roller-3">
+          <img src="img/roller3.png" alt="glo-2" id="product-image"/>
+          <h3 class="product-display-name">Rockin Roller 3</h3>
+          <p class="product-display-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat repudiandae asperiores nam. Id neque, accusantium numquam adipisci quibusdam cupiditate quaerat?</p>
+          <div class="product-button-container">
+            <button id="button-1">Buy Now</button>
+            <button id="button-1">Learn More</button>
+          </div>
+        </div>
+        <div class="product rockin roller-4">
+          <img src="img/roller4.jpg" alt="glo-2" id="product-image"/>
+          <h3 class="product-display-name">Rockin Roller 4</h3>
+          <p class="product-display-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat repudiandae asperiores nam. Id neque, accusantium numquam adipisci quibusdam cupiditate quaerat?</p>
+          <div class="product-button-container">
+            <button id="button-1">Buy Now</button>
+            <button id="button-1">Learn More</button>
+          </div>
+        </div>
+        <div class="product pro roller-pro">
+          <img src="img/pro.jpg" alt="glo-2" id="product-image"/>
+          <h3 class="product-display-name">Roller Pro</h3>
+          <p class="product-display-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat repudiandae asperiores nam. Id neque, accusantium numquam adipisci quibusdam cupiditate quaerat?</p>
+          <div class="product-button-container">
+            <button id="button-1">Buy Now</button>
+            <button id="button-1">Learn More</button>
+          </div>
+        </div>
+        <div class="product rockin mini">
+          <img src="img/mini.png" alt="glo-2" id="product-image"/>
+          <h3 class="product-display-name">Roller Mini</h3>
+          <p class="product-display-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat repudiandae asperiores nam. Id neque, accusantium numquam adipisci quibusdam cupiditate quaerat?</p>
+          <div class="product-button-container">
+            <button id="button-1">Buy Now</button>
+            <button id="button-1">Learn More</button>
+          </div>
+        </div>
+        <div class="product rockin rambler">
+          <img src="img/rambler.png" alt="glo-2" id="product-image"/>
+          <h3 class="product-display-name">Rambler</h3>
+          <p class="product-display-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat repudiandae asperiores nam. Id neque, accusantium numquam adipisci quibusdam cupiditate quaerat?</p>
+          <div class="product-button-container">
+            <button id="button-1">Buy Now</button>
+            <button id="button-1">Learn More</button>
+          </div>
+        </div>
+        <div class="product companion roam">
+          <img src="img/roam.jpg" alt="glo-2" id="product-image"/>
+          <h3 class="product-display-name">ROAM</h3>
+          <p class="product-display-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat repudiandae asperiores nam. Id neque, accusantium numquam adipisci quibusdam cupiditate quaerat?</p>
+          <div class="product-button-container">
+            <button id="button-1">Buy Now</button>
+            <button id="button-1">Learn More</button>
+          </div>
+        </div>
+        <div class="product companion rove">
+          <img src="img/rove.png" alt="glo-2" id="product-image"/>
+          <h3 class="product-display-name">Rove</h3>
+          <p class="product-display-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat repudiandae asperiores nam. Id neque, accusantium numquam adipisci quibusdam cupiditate quaerat?</p>
+          <div class="product-button-container">
+            <div class="buy-now-button">
+              <button id="button-1">Buy Now</button>
+            </div>
+            <div class="learn-more-button">
+              <button id="button-1">Learn More</button>
+            </div>
+          </div>
+        </div>
       
     </div>
 
@@ -127,6 +206,9 @@
         respective owners.
       </p>
     </div>
+
+
+    <script src="../js/filter.js"></script>
 
   </body>
 </html>
