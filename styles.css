@@ -122,7 +122,6 @@ a {
 .main-product-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 1em;
 }
 
 p {
@@ -134,6 +133,6 @@ p {
   background-color: #f5f5f5;
 }
 
-.product:hover {
+#product-image:hover {
   opacity: 0.8;
 }

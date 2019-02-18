@@ -7,11 +7,35 @@ html {
 body {
   top: 0;
   left: 0;
+  text-align: center;
 }
 
 .main-rockin-roller-4 {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: minmax(250px, auto);
+}
+
+.main-rockin-roller-4 > :nth-child(1) {
+  max-width: 500px;
+}
+
+.main-download-user-buttons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 6em;
+  background-color: #e0e0e0;
+}
+
+.main-monster-zone-controller-container {
+  background-color: rgb(206, 42, 42);
+}
+
+.main-monster-zone-buttons-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .left-column {
@@ -20,11 +44,10 @@ body {
 
 .right-column {
   background-color: rgb(131, 131, 131);
-  text-align: center;
 }
 
 #main-image {
-  /*   */
+  /* max-width: 700px; */
 }
 
 .main-top-features,
