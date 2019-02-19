@@ -1,28 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="rockinroller4.css" />
+    <link rel="stylesheet" href="glo.css" />
   </head>
   <body>
-    <div class="main-rockin-roller-4">
+    <div class="header">
+      <div class="header-logo">
+        <a href="#">
+          <img src="../../assets/images/monster-logo.png" id="monster-logo" />
+        </a>
+      </div>
+      <div class="nav-bar">
+        <div class="home">
+          <a href="../../index.html">
+            Home
+          </a>
+        </div>
+        <div class="products">
+          <a href="../products.html">
+            Products
+          </a>
+        </div>
+        <div class="support">
+          <a href="../../support.html">
+            Support
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="main-top-container">
       <div class="left-column">
-        <div class="main-product-image"></div>
+        <div class="main-product-image">
+            <img src="solara.jpg" alt="glo image" id="main-img"/>
+        </div>
       </div>
 
       <div class="right-column">
         <div class="main-product-item-details">
           <div class="main-product-name">
-            <h2>Rockin' Roller 4</h2>
+            <h2 class="display-2">Rockin Roller 4</h2>
           </div>
           <div class="main-product-features">
-            <ul>
-              <li>Stack and Lock Design</li>
-              <li>Now Includes Bottle Opener</li>
-              <li>Connect 2 Speakers Wirelessly</li>
-              <li>Connect 2 Speakers Wirelessly</li>
-              <li>Free Mobile App Control</li>
-              <li>100 Watt | 100 Hour Playback</li>
-              <li>NOAA Weather Radio</li>
+            <ul class="main-products-listings">
+              <li >20-Watt Speaker Output</li>
+              <li>10-Hour Wireless Battery Life</li>
+              <li>IPX5 Dustproof & Water Resistant</li>
+              <li>EZ-Play 8-Speaker Connection</li>
+              <li>LED Light Panels</li>
             </ul>
             <div class="buy-now-button-container">
               <button id="button-1">Buy Now</button>
@@ -37,6 +61,35 @@
       </div>
       <div class="download-quick-start-guide-container">
         <button id="button-3">Download Quick Start Guide</button>
+      </div>
+    </div>
+
+    <div class="product-main-description-container">
+      <div class="product-main-header">
+        <h2>Monster GLO 2</h2>
+      </div>
+      <div class="product-main-description">
+        <p>
+            A lantern speaker with dual LED panels with color and brightness options. 
+            Features EZ-Play technology to wirelessly connect with up to 7 other speakers and sync audio playback. 
+            Can be mounted with included mounting bracket, or a fixture of your choice. 
+            Use the Monster Zone Control mobile app to make changes to your speaker setup from the palm of your hand!
+        </p>
+      </div>
+    </div>
+
+    <div class="product-video-container">
+      <div class="product-video-features"></div>
+      <!-- <div class="fullscreen-bg">
+        <div style="position: fixed; z-index: -99; width: 100%; height: 100%">
+          <iframe
+            frameborder="0"
+            height="100%"
+            width="100%"
+            src="https://www.youtube.com/watch?v=9q7NyeEJvmU"
+          >
+          </iframe>
+        </div> -->
       </div>
     </div>
 
@@ -58,10 +111,10 @@
       </div>
       <div class="main-monster-zone-buttons-container">
         <div class="app-store-button-container">
-          <button id="button-4">available on app store</button>
+          <a href="#"><img src="../../assets/buttons/app-store.png" id="app-button"></a>
         </div>
         <div class="google-play-button-container">
-          <button id="button-4">get it on google play</button>
+          <a href="#"><img src="../../assets/buttons/google-play.png" id="google-button"></a>
         </div>
       </div>
     </div>
@@ -162,7 +215,30 @@
         </div>
       </div>
     </div>
+    
+    <div class="faq-left-column"></div>
+    <div class="faq-right-column"></div>
+    <div class="FAQ-container">
+      
+      <div class="faq-header">FAQ</div>
+  
+      <div class="faq-content">
+        <div class="faq-question">
+          <input id="q1" type="checkbox" class="panel">
+          <div class="plus">+</div>
+          <label for="q1" class="panel-title">How does EZ-PLAY works?</label>
+          <div class="panel-content">
+            <p>
+                Press and hold the EZ-Play button on the 1st speaker. On a second speaker tap the EZ-Play button. T
+                his should convert the second speaker to a receiving unit and automatically establish a connection between the two. 
+                Please refer to page 5 in the user manual.
+            </p>
+          </div>
+        </div>
+        
+      </div>
+      
+    </div>
 
-    <div class="main-faq-container"></div>
   </body>
 </html>
